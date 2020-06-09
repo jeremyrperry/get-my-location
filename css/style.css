@@ -1,0 +1,14 @@
+h1{
+    width: 200px;
+    height: auto;
+    margin: 20px auto;
+}
+
+.alert{
+    display: none;
+}
+
+button{
+    width: 100%;
+    text-align: center;
+}
