@@ -4,7 +4,7 @@ h1{
     margin: 20px auto;
 }
 
-.alert{
+.alert, #copy-btn{
     display: none;
 }
 
