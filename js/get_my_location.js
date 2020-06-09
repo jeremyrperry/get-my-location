@@ -28,7 +28,7 @@ const get_my_location = {
         $textarea.contentEditable = true;
         $textarea.readOnly = true;
         const range = document.createRange();
-        range.selectNodeContents(el);
+        range.selectNodeContents($textarea);
         const selection = window.getSelection();
         selection.removeAllRanges();
         selection.addRange(range);
