@@ -32,6 +32,16 @@
         Unable to get your current location.
     </div>
     <div class="form-group">
+        <label for="choose_map">Choose Map Type</label>
+        <select class="form-control" id="choose_map">
+            <option value="google" selected>Google</option>
+            <option value="bing">Bing</option>
+            <option value="apple">Apple</option>
+            <option value="osm">OpenStreetMap</option>
+            <option value="latlon">Lat/Lon Coordinates (no map)</option>
+        </select>
+    </div>
+    <div class="form-group">
         <button id="get-location-btn" class="btn btn-primary">Get My Location</button>
     </div>
     <div class="form-group">
