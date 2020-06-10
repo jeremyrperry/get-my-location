@@ -16,7 +16,7 @@ const get_my_location = {
                 return `https://maps.google.com/?q=${lat},${lon}`;
                 break;
             case 'bing':
-                return `https://www.bing.com/maps?cp=${lat}~-${lon}&lvl=16&sp=point.${lat}_${lon}_My%20Location`;
+                return `https://bing.com/maps/default.aspx?cp=${lat}~-${lon}&lvl=16&sp=point.${lat}_${lon}_My%20Location`;
                 break;
             case 'apple':
                 return `http://maps.apple.com/?ll=4${lat},${lon}&q=My+Location`;
